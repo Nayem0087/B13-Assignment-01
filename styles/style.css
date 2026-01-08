@@ -1,0 +1,14 @@
+.header, .list {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header img {
+    max-width: 139px;
+    max-height: 60px;
+    margin-left: 120px;
+}
