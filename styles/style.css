@@ -47,6 +47,10 @@
     font-size: 16px;
 }
 
+.header button:hover {
+    background-color: #4e7d62;
+}
+
 .banner {
     background-image: url(../assets/hero-bg.png);
     text-align: center;
@@ -99,6 +103,10 @@
     margin-right: 20px;
 }
 
+.banner .btn-2:hover {
+    background-color: #4e7d62;
+}
+
 .banner .btn-3 {
     background-color: transparent;
     font-size: 16px;
@@ -109,6 +117,10 @@
     border-radius: 6px;
     margin-right: 48px;
     border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.banner .btn-3:hover {
+    background-color: #4e7d62;
 }
 
 .banner .btn-img {
@@ -254,7 +266,7 @@
     margin-bottom: 16px;
 }
 
-#clear .clear-btn :hover {
+#clear .clear-btn:hover {
     background-color: #4e7d62;
 }
 
