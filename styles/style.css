@@ -100,7 +100,15 @@
 }
 
 .banner .btn-3 {
-    background: remove;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 48px;
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .banner .btn-img {
@@ -144,8 +152,13 @@
 #structure .icon {
     background-color: #F95555;
     border-radius: 50%;
-    padding: 5px;
+    padding: 8px;
     margin-top: 30px;
+}
+
+#structure .icon img {
+    height: 20px;
+    width: 20px;
 }
 
 #structure h3 {
@@ -192,6 +205,16 @@
     font-size: 16px;
     font: bold;
     margin-bottom: 16px;
+}
+
+#solution .circle li {
+    display: flex;
+    gap: 10px;
+}
+
+#solution .circle img {
+    height: 16px;
+    width: 16px;
 }
 
 #clear {
@@ -248,7 +271,7 @@
 }
 
 #footer .container-one {
-    margin-right: 900px;
+    margin-right: 700px;
 }
 
 #footer .container-two p {
